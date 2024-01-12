@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node.js App",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": false,
+    "target": "es2022",
+    "lib": [
+      "es2023"
+    ],
+    "noEmit": false,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "incremental": true,
+    "sourceMap": true
+  }
+}
